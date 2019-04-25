@@ -14,12 +14,14 @@ def main():
 
 	odds = set(range(3,limit,2))
 	
-	oddComposites = odds - primesSet
+	oddCompositesSet = odds - primesSet
+
+	oddCompositesList = list(oddCompositesSet)
 
 	print("Limit:\t\t",			limit)
 	print("Primes Set:\t",		primesSet)
 	print("Odds:\t\t",			odds)
-	print("Odd Composites:\t",	oddComposites)
+	print("Odd Composites:\t",	oddCompositesList)
 
 if __name__ == "__main__":
 	main()
