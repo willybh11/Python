@@ -1,6 +1,8 @@
 
 # import sys
-from primesSieve import sieve 		# put 'primes_sieve.py' in the same directory as this file!
+
+def sieve(limit):
+	pass	# put your code here that returns a list of primes!
 
 def main():
 
