@@ -1,0 +1,1 @@
+from random import choice; initial_guess, flip = choice('ABC'), raw_input('Switch? (y/n): ') in ['y','Y']; print "WP: " , sum([[0,1],[1,0]][flip][initial_guess==choice('ABC')] for i in range(100))
