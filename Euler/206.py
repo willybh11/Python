@@ -1,7 +1,7 @@
 
 n = 138902663
 while not all(int(str(n*n)[x*2]) == x+1 for x in range(9)): n -= 2
-print (n*10,(n*10)**2)
+print (n*10,"in",(n*10)**2)
 
 # n is the ROUNDED ODD square root of the highest possible number, 19293949596979899
 # we will subtract from n until its square meets the criteria of the problem:
