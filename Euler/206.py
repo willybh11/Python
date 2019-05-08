@@ -16,7 +16,7 @@ print (n*10,"in",(n*10)**2)
 # for each iteration in the while loop, we subtract 2 so the number remians odd.
 # Our square has a trailing digit of 9. Any such number has a root ending in 3 or 7.
 
-# < all()> returns TRUE if EVERY value in the list or generator evaluates to TRUE.
+# < all() > returns TRUE if EVERY value in the list or generator evaluates to TRUE.
 # if they are all TRUE, we want to return FALSE instead (hence the < not>,
 # in order to break the while loop.
 
