@@ -15,14 +15,16 @@ print (n*10,"in",(n*10)**2)
 
 # for each iteration in the while loop, we subtract 2 so the number remians odd.
 # Our square has a trailing digit of 9. Any such number has a root ending in 3 or 7.
+# we know it ends in a 9 because squares that end in 0 must have a root with a trailing 0.
+# we also know that the digit before the last must also be 0, as 10 squared is 100.
 
 # < all() > returns TRUE if EVERY value in the list or generator evaluates to TRUE.
-# if they are all TRUE, we want to return FALSE instead (hence the < not>,
+# if they are all TRUE, we want to return FALSE instead (hence the < not >,
 # in order to break the while loop.
 
 # at this point, n almost equal to our number. 
 # we ignored the trailing 0 initally for the sake of simplicity and optimization.
-# we multiply the number by 10 to give us the TRUE answer.
+# we multiply the number by 10 to give us the final answer.
 
 # In theory, this method could be further optimized by decreasing n by
 # alternating n-6 and n-4, which would ONLY check numbers ending in 3s and 7s.
